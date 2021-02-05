@@ -1,0 +1,19 @@
+UNET:
+    dataset: 'hvsmr'
+    lr: 0.0065
+    num_epochs: 150
+    model_type: "unet"
+    init_type: glorot
+    quantization: "FIXED" # "INT", "BNN", "Normal", "FIXED" 
+    activation_f_width: 8
+    activation_i_width: 8
+    weight_f_width: 8
+    weight_i_width: 8
+    gpu_core_num: 1
+    dropout: "enable" # disable
+    activation: "square"
+    trained_model: "./results/"
+    experiment_name: "hvsmr_a8_8_w8_8"
+    log_output_dir: "./results/"
+    operation_mode: "normal" # normal, visualize, retrain, inference
+    # trained_model: ""
