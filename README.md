@@ -56,5 +56,5 @@ perform model forging attack in a layer-by-layer manner. During the attack, the 
 incrementally set the front-end of the NN to be fixed and public (i.e., the encoder), and 
 the back-end of the NN to be random (i.e., the backbone).
 
-## 1. To Characterize the Performance
+## 2. To Characterize the Performance
 Refer to the readme file in performance_estimation/
